@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 1em;
+    min-height: 100px;
+  }
+  
+  .list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .item {
+    margin-right: 1em;
+  }
+  
+  .item a {
+    color: #fff;
+    text-decoration: none;
+    transition:  all 0.3s;
+  }
+  
+  .item a:hover {
+    color: #ffbb33;
+  }
+ 
+  .logo_moeda {
+    position: absolute;
+    left: 5%;
+    top: normal;
+
+  }
+  @media (max-width:350px){
+    .logo_moeda {
+      position: absolute;
+      left: 5%;
+      top: 3%;
+      max-width: 50px;
+    }
+  }

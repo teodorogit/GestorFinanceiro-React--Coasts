@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+    padding: 20px; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container > p {
+    width: 75%;
+    font-size: 18px;
+}
+.img {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.social {
+    background-color: #0B66C3;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    width: 250px;
+    text-align: center;
+    transition: 300ms ease;
+}
+.social:hover {
+    transform: scale(1.05);
+}

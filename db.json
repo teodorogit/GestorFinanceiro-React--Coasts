@@ -1,0 +1,79 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "projects": [
+    {
+      "name": "Contratar novo Design",
+      "budget": "4500",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 31
+    },
+    {
+      "name": "Contratar Estagiario de suporte",
+      "budget": "1200",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 35
+    },
+    {
+      "name": "Contratar Dev senior Java",
+      "budget": "12000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 222,
+      "services": [
+        {
+          "name": "Matheus Vinicius Lula Teodoro",
+          "cost": "222",
+          "description": "novo servico",
+          "id": "3d78c447-9c6b-40ab-9278-3006a4206a8c"
+        }
+      ],
+      "id": 36
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
