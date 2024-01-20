@@ -1,6 +1,5 @@
 # React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Plataforma que gerência novos proejtos e gastos totais que se podem ter, é possivel adicionar tarefas e definir o preço que é possivel gastar com cada tarefa e assim ir abatendo do valor total disponivel para gastar em determinada tarefa, é possivel excluir ou editar tarefas prontas, para Dbjson foi utilizado para simular os projetos sendo salvos no banco.
 
 Currently, two official plugins are available:
 
